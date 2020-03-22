@@ -2,7 +2,6 @@
   "name": "olx-scrapper",
   "license": "MIT",
   "dependencies": {
-    "@types/puppeteer": "^2.0.1",
     "pm2": "^4.2.3",
     "puppeteer": "^2.1.1",
     "yargs": "^15.3.1"
@@ -11,6 +10,7 @@
     "start": "node scrapper.js"
   },
   "devDependencies": {
+    "@types/puppeteer": "^2.0.1",
     "@types/yargs": "^15.0.4",
     "nodemon": "^2.0.2"
   }
